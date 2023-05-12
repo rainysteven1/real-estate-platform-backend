@@ -1,0 +1,17 @@
+name: real-estate-platform-backend
+port: 8080
+profile: dev
+version: 0.1.0
+log:
+  level: "info"
+  filename: "/Users/rainy/code/go/real-estate-platform-backend/resources/log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+db:
+  driver: mysql
+  host: 127.0.0.1
+  port: 13306
+  dbname: real-estate-platform
+  username: root
+  password: 123456
